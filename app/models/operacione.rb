@@ -1,4 +1,4 @@
 class Operacione < ActiveRecord::Base
 	has_many :trabajadore, dependent: :destroy
-	belongs_to :inventario
+	belongs_to :inventario. dependent: :destroy
 end
